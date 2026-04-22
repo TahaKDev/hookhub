@@ -1,0 +1,144 @@
+[     327ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://edition.cnn.com/:17749
+[     566ms] [LOG] AdFuelError event fired: CustomEvent @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-body-4f5702656cd8f4223620039026c7c6ddef28fe7bd21467289a55cfecc58ecf1f.min.js:0
+[    1424ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604160201/pubads_impl.js:18
+[    1424ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604160201/pubads_impl.js:18
+[    1479ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[    1481ms] [ERROR] Not signed in with the identity provider. @ https://edition.cnn.com/:0
+[    1634ms] [LOG] {adSessionID: c90384c0-7027-47dd-8d2e-6787420bfca4, advertisingIdentifier: null, appSessionId: c90384c0-7027-47dd-8d2e-6787420bfca4, applicationIdentifier: edition.cnn.com, applicationName: cnn} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:0
+[    1659ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:348870)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:342204)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:314576 @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    1660ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:321142)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:293415)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:294739)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:293825) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    1661ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:321454)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:293415)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:294739)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:293825)
+    at et (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:299317)
+    at o (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:299521) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    1672ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:331045
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    1672ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:331213
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    1689ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:331045
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    2141ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:85
+[    2201ms] [LOG] [BL]  [raiseEvent] OnInit{"elementUrl":"https://edition.cnn.com/"} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:0
+[    2201ms] [LOG] [BL]  [raiseEvent] OnManifestLoadedundefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:0
+[    3413ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:0
+[    3731ms] [ERROR] Player | Player received error, stopping playback session: 4434f0f5-a617-4b73-9586-4fe213c427ab code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:1345
+[    4549ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604160201/pubads_impl.js:18
+[    5627ms] TypeError: Cannot read properties of undefined (reading 'track')
+    at c (https://edition.cnn.com/:17398:1241)
+    at T (https://edition.cnn.com/:17398:1442)
+[    5703ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://edition.cnn.com/:16648
+[    5787ms] [LOG] AdFuelError event fired: CustomEvent @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-body-4f5702656cd8f4223620039026c7c6ddef28fe7bd21467289a55cfecc58ecf1f.min.js:0
+[    5970ms] [WARNING] %c >>> %c[Prebid 5.01.029 TS]  background: orange;color: black color: #58f53f; padding: 2px getKvp miss: vendor="GUMGUM" configKey="SLOT" rocketeerKeyPath="INTL › DESKTOP › DISPLAY › HP › BNR › ATF › 01 › 728x90" (config slice has 2 root keys: DOM, INTL) {vendor: GUMGUM, paramKey: undefined, configKey: SLOT, rocketeerKeyPath: INTL › DESKTOP › DISPLAY › HP › BNR › ATF › 01 › 728x90, config: Object} @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-e30d4ed1f85bf55b7e150ee7e8bce42e790935484c341b93025c175bfac82243.min.js:0
+[    5970ms] [WARNING] %c >>> %c[Prebid 5.01.029 TS]  background: orange;color: black color: #58f53f; padding: 2px getKvp miss: vendor="GUMGUM" configKey="PRODUCT" rocketeerKeyPath="INTL › DESKTOP › HP › BNR › ATF › 01" (empty config slice — check vendor JSON / MAPPINGS) {vendor: GUMGUM, paramKey: undefined, configKey: PRODUCT, rocketeerKeyPath: INTL › DESKTOP › HP › BNR › ATF › 01, config: Object} @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-e30d4ed1f85bf55b7e150ee7e8bce42e790935484c341b93025c175bfac82243.min.js:0
+[    5976ms] [WARNING] %c >>> %c[Prebid 5.01.029 TS]  background: orange;color: black color: #58f53f; padding: 2px getKvp miss: vendor="PUBMATIC" paramKey="adSlot" configKey="MAPPINGS" rocketeerKeyPath="INTL › DESKTOP › DISPLAY › HP › BNR › ATF › 01" (config slice has 2 root keys: DOM, INTL) {vendor: PUBMATIC, paramKey: adSlot, configKey: MAPPINGS, rocketeerKeyPath: INTL › DESKTOP › DISPLAY › HP › BNR › ATF › 01, config: Object} @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-e30d4ed1f85bf55b7e150ee7e8bce42e790935484c341b93025c175bfac82243.min.js:0
+[    5978ms] [WARNING] %c >>> %c[Prebid 5.01.029 TS]  background: orange;color: black color: #58f53f; padding: 2px getKvp miss: vendor="SHARETHROUGH" paramKey="pkey" configKey="UNIT_MAPPING" rocketeerKeyPath="INTL › DESKTOP › DISPLAY › HP › BNR › ATF › 01 › 970x90" (config slice has 2 root keys: DOM, INTL) {vendor: SHARETHROUGH, paramKey: pkey, configKey: UNIT_MAPPING, rocketeerKeyPath: INTL › DESKTOP › DISPLAY › HP › BNR › ATF › 01 › 970x90, config: Object} @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-e30d4ed1f85bf55b7e150ee7e8bce42e790935484c341b93025c175bfac82243.min.js:0
+[    6049ms] [LOG] CEP Topic Collection:  [Object, Object, Object] @ https://edition.cnn.com/media/sites/js/bundles/cnn-edition-adfuel-e30d4ed1f85bf55b7e150ee7e8bce42e790935484c341b93025c175bfac82243.min.js:0
+[    6200ms] [LOG] {adSessionID: c90384c0-7027-47dd-8d2e-6787420bfca4, advertisingIdentifier: null, appSessionId: c90384c0-7027-47dd-8d2e-6787420bfca4, applicationIdentifier: edition.cnn.com, applicationName: cnn} @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    6227ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:348870)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:342204)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:314576
+    at ft (https://cadmus.script.ac/d2uap9jskdzp2/script.js:1:107976) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    6232ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://edition.cnn.com/:17062:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:270315)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:358852)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:321142)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:293415)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:294739)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-5fe74f6a/boltInstance:1:293825) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://ib.adnxs.com failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://btlr.sharethrough.com failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://elb.the-ozone-project.com failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://a.teads.tv failed. @ https://edition.cnn.com/:0
+[    6300ms] [ERROR] Attestation check for Protected Audience on https://fastlane.rubiconproject.com failed. @ https://edition.cnn.com/:0
+[    6320ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://edition.cnn.com/:0
+[    6415ms] [LOG] [BL]  [raiseEvent] OnInit{"elementUrl":"https://edition.cnn.com/"} @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    6415ms] [LOG] [BL]  [raiseEvent] OnManifestLoadedundefined @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    6559ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604160201/pubads_impl.js:18
+[    6808ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:0
+[    6822ms] [LOG] [PTK] cookies  @ https://lightning.warnermediacdn.com/cdp/psmtk/getcdpid.html:37
+[    6822ms] [LOG] [PTK] cdpId a56352d6-900b-4a40-9891-7a9cba9ac43c @ https://lightning.warnermediacdn.com/cdp/psmtk/getcdpid.html:40
+[    6822ms] [LOG] [PTK] setting cookie in iFrame @ https://lightning.warnermediacdn.com/cdp/psmtk/getcdpid.html:41
+[    6822ms] [LOG] [PTK] setting CDPID to a56352d6-900b-4a40-9891-7a9cba9ac43c on domain warnermediacdn.com @ https://lightning.warnermediacdn.com/cdp/psmtk/getcdpid.html:15
+[    6822ms] [LOG] [PTK] expires Sat, 19 Apr 2036 13:43:53 GMT @ https://lightning.warnermediacdn.com/cdp/psmtk/getcdpid.html:17
+[    6917ms] [ERROR] Player | Player received error, stopping playback session: 65105e70-2eee-42ba-9319-eb68b3b13425 code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-27c31580/boltPlayer:1345
+[    7042ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    7047ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d2uap9jskdzp2/script.js:0
+[    7278ms] [INFO] Powered by AMP ⚡ HTML – Version 2603032146000 https://edition.cnn.com/ @ https://cdn.ampproject.org/rtv/012603032146000/amp4ads-v0.mjs:1
+[    7395ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/rp?bee_sync_partners=rp&gdpr_consent=CQjD4HAQjD4HAAcABBFRCbFgAP_AAAAAAAwIKdwMIAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUA6oCDAEagJiAToAtGBeQF5gMWAYyAywBl4DVQG6gOCAkiBTsAAABgSAeABUAEAAJIAZABoADwAJgAhABHACtAHcAPYAgABJQF5gN1CAAwCDgLyAYsOgKgALAAqACAAEgALoAZABoADwAJgAjgBRgCtAHcAPYAiwBHQCSgFiAXmAywBqoDdRwAQAgEBBwEIATEAxYhAFAAWAC4AdwC0QGqkAAYBYgF5AMWJQCQAFgAkAB4AEwARwAowBWgLzAZYSACgDuAIAAQcBMQDFikA8ABYAFQAQQAyADQAHgATABHACjAFaARYAjoBJQF5gMsAbqUAEgAkABcAO4AgABBwCxAJiAXkAxYtABAHcWAAgJiA.f_gAAAAAAAAA.IKdwMYAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUAz4B1QEGAI1ATEAnQBaMC8gLzAYsAxkBlgDLwGqgN1AcEBJECnYAA&gdpr=1&us_privacy=1---&_bee_ppp=1:0
+[    7396ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://ssp.wp.pl/v1/sync/pixel/pubmatic?gdpr=1&gdpr_consent=CQjD4HAQjD4HAAcABBFRCbFgAP_AAAAAAAwIKdwMIAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUA6oCDAEagJiAToAtGBeQF5gMWAYyAywBl4DVQG6gOCAkiBTsAAABgSAeABUAEAAJIAZABoADwAJgAhABHACtAHcAPYAgABJQF5gN1CAAwCDgLyAYsOgKgALAAqACAAEgALoAZABoADwAJgAjgBRgCtAHcAPYAiwBHQCSgFiAXmAywBqoDdRwAQAgEBBwEIATEAxYhAFAAWAC4AdwC0QGqkAAYBYgF5AMWJQCQAFgAkAB4AEwARwAowBWgLzAZYSACgDuAIAAQcBMQDFikA8ABYAFQAQQAyADQAHgATABHACjAFaARYAjoBJQF5gMsAbqUAEgAkABcAO4AgABBwCxAJiAXkAxYtABAHcWAAgJiA.f_gAAAAAAAAA.IKdwMYAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUAz4B1QEGAI1ATEAnQBaMC8gLzAYsAxkBlgDLwGqgN1AcEBJECnYAA:0
+[    7650ms] [TIMEEND] a: 0.0009765625 ms @ https://static.adsafeprotected.com/sca.17.6.4.js:31
+[    7395ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/rp?bee_sync_partners=rp&gdpr_consent=CQjD4HAQjD4HAAcABBFRCbFgAP_AAAAAAAwIKdwMIAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUA6oCDAEagJiAToAtGBeQF5gMWAYyAywBl4DVQG6gOCAkiBTsAAABgSAeABUAEAAJIAZABoADwAJgAhABHACtAHcAPYAgABJQF5gN1CAAwCDgLyAYsOgKgALAAqACAAEgALoAZABoADwAJgAjgBRgCtAHcAPYAiwBHQCSgFiAXmAywBqoDdRwAQAgEBBwEIATEAxYhAFAAWAC4AdwC0QGqkAAYBYgF5AMWJQCQAFgAkAB4AEwARwAowBWgLzAZYSACgDuAIAAQcBMQDFikA8ABYAFQAQQAyADQAHgATABHACjAFaARYAjoBJQF5gMsAbqUAEgAkABcAO4AgABBwCxAJiAXkAxYtABAHcWAAgJiA.f_gAAAAAAAAA.IKdwMYAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUAz4B1QEGAI1ATEAnQBaMC8gLzAYsAxkBlgDLwGqgN1AcEBJECnYAA&gdpr=1&us_privacy=1---&_bee_ppp=1:0
+[    9856ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://sync.crwdcntrl.net/qmap?c=240&tp=PUBM&tpid=3DF77608-1A49-4380-9E31-3FD3DE72447F&gdpr=1&gdpr_consent=CQjD4HAQjD4HAAcABBFRCbFgAP_AAAAAAAwIKdwMIAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUA6oCDAEagJiAToAtGBeQF5gMWAYyAywBl4DVQG6gOCAkiBTsAAABgSAeABUAEAAJIAZABoADwAJgAhABHACtAHcAPYAgABJQF5gN1CAAwCDgLyAYsOgKgALAAqACAAEgALoAZABoADwAJgAjgBRgCtAHcAPYAiwBHQCSgFiAXmAywBqoDdRwAQAgEBBwEIATEAxYhAFAAWAC4AdwC0QGqkAAYBYgF5AMWJQCQAFgAkAB4AEwARwAowBWgLzAZYSACgDuAIAAQcBMQDFikA8ABYAFQAQQAyADQAHgATABHACjAFaARYAjoBJQF5gMsAbqUAEgAkABcAO4AgABBwCxAJiAXkAxYtABAHcWAAgJiA.f_gAAAAAAAAA.IKdwMYAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUAz4B1QEGAI1ATEAnQBaMC8gLzAYsAxkBlgDLwGqgN1AcEBJECnYAA:0
+[    9856ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://sync.crwdcntrl.net/qmap?c=240&tp=PUBM&tpid=3DF77608-1A49-4380-9E31-3FD3DE72447F&gdpr=1&gdpr_consent=CQjD4HAQjD4HAAcABBFRCbFgAP_AAAAAAAwIKdwMIAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUA6oCDAEagJiAToAtGBeQF5gMWAYyAywBl4DVQG6gOCAkiBTsAAABgSAeABUAEAAJIAZABoADwAJgAhABHACtAHcAPYAgABJQF5gN1CAAwCDgLyAYsOgKgALAAqACAAEgALoAZABoADwAJgAjgBRgCtAHcAPYAiwBHQCSgFiAXmAywBqoDdRwAQAgEBBwEIATEAxYhAFAAWAC4AdwC0QGqkAAYBYgF5AMWJQCQAFgAkAB4AEwARwAowBWgLzAZYSACgDuAIAAQcBMQDFikA8ABYAFQAQQAyADQAHgATABHACjAFaARYAjoBJQF5gMsAbqUAEgAkABcAO4AgABBwCxAJiAXkAxYtABAHcWAAgJiA.f_gAAAAAAAAA.IKdwMYAFAAaABUADMAHwAhABIAC4AGQANIAeAB6AEUAJMATABNACgAFIALYAYYBBgEIAI6AUYBSACtAHcAPYAgEBBwEIAIsAR0AkoBOwCkgFiALSAXUAz4B1QEGAI1ATEAnQBaMC8gLzAYsAxkBlgDLwGqgN1AcEBJECnYAA:0

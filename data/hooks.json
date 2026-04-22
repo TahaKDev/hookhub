@@ -1,0 +1,82 @@
+[
+  {
+    "id": "anthropics-claude-code-hooks-example",
+    "name": "Official Bash Validator",
+    "author": "anthropics",
+    "description": "Official Claude Code example demonstrating how to validate bash commands before execution. Blocks dangerous commands with configurable rules.",
+    "category": "PreToolUse",
+    "repoUrl": "https://github.com/anthropics/claude-code"
+  },
+  {
+    "id": "disler-claude-code-hooks-mastery",
+    "name": "Claude Code Hooks Mastery",
+    "author": "disler",
+    "description": "13+ hooks covering the full lifecycle: pre-compact context injection, subagent monitoring, session-start logging, and PostToolUse tracking.",
+    "category": "PostToolUse",
+    "repoUrl": "https://github.com/disler/claude-code-hooks-mastery"
+  },
+  {
+    "id": "karanb192-claude-code-hooks",
+    "name": "Hooks Starter Pack",
+    "author": "karanb192",
+    "description": "Safety, formatting, and notification hooks for everyday use: block dangerous commands, auto-format code after edits, and send desktop alerts.",
+    "category": "PreToolUse",
+    "repoUrl": "https://github.com/karanb192/claude-code-hooks"
+  },
+  {
+    "id": "codyunders-claude-code-hooks-library",
+    "name": "Claude Code Hooks Library",
+    "author": "CodyLunders",
+    "description": "60+ hooks across security, code quality, git workflow, productivity, and logging. A comprehensive reference for building your own hook system.",
+    "category": "PostToolUse",
+    "repoUrl": "https://github.com/CodyLunders/claude-code-hooks-library"
+  },
+  {
+    "id": "disler-claude-code-hooks-multi-agent-observability",
+    "name": "Multi-Agent Observability",
+    "author": "disler",
+    "description": "Real-time monitoring for multi-agent workflows: PostToolUse event logging, session tracking, and event visualization for debugging agentic pipelines.",
+    "category": "PostToolUse",
+    "repoUrl": "https://github.com/disler/claude-code-hooks-multi-agent-observability"
+  },
+  {
+    "id": "gjohnsx-claude-code-notification-hooks",
+    "name": "Notification Hooks",
+    "author": "gjohnsx",
+    "description": "Cross-platform desktop notification hooks for macOS, Linux, and Windows. Get alerted when Claude needs your attention without watching the terminal.",
+    "category": "Notification",
+    "repoUrl": "https://github.com/gjohnsx/claude-code-notification-hooks"
+  },
+  {
+    "id": "chriswiles-claude-code-showcase",
+    "name": "Claude Code Showcase",
+    "author": "ChrisWiles",
+    "description": "End-to-end project config combining hooks, skills, agents, and GitHub Actions. Demonstrates Stop hooks for post-session automation.",
+    "category": "Stop",
+    "repoUrl": "https://github.com/ChrisWiles/claude-code-showcase"
+  },
+  {
+    "id": "diet103-claude-code-infrastructure-showcase",
+    "name": "Infrastructure Showcase Hooks",
+    "author": "diet103",
+    "description": "6 production-ready hooks including skill activation triggers, post-tool usage tracking, and context injection for infrastructure-focused projects.",
+    "category": "PostToolUse",
+    "repoUrl": "https://github.com/diet103/claude-code-infrastructure-showcase"
+  },
+  {
+    "id": "ronaldeddings-basic-claude-code-hook-for-context",
+    "name": "Basic Context Injection Hook",
+    "author": "ronaldeddings",
+    "description": "Simple SessionStart hook that injects critical context into every new session. A great starting point for hook beginners.",
+    "category": "SessionStart",
+    "repoUrl": "https://github.com/ronaldeddings/Basic-Claude-Code-Hook-For-Context"
+  },
+  {
+    "id": "johnlindquist-claude-hooks",
+    "name": "TypeScript Claude Hooks",
+    "author": "johnlindquist",
+    "description": "TypeScript-based hooks with full type safety and strongly-typed payloads. Validate bash commands before execution with type-checked matchers.",
+    "category": "PreToolUse",
+    "repoUrl": "https://github.com/johnlindquist/claude-hooks"
+  }
+]
