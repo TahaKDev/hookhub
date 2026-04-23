@@ -1,8 +1,16 @@
 ---
 name : commit-code
-description: Commit Skill
+allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*)
+description: Create a git commit
 ---
 
-Review the files that have changed, and create a commit with a commit message summarizing the changes made. Always try to give short and concise messages that convey the business logic.
+## Context
 
-Use user hints to be the message main subject $ARGUMENTS
+- Current git status: !`git status`
+- Current git diff (staged and unstaged changes): !`git diff HEAD`
+- Current branch: !`git branch --show-current`
+- Recent commits: !`git log --oneline -10`
+
+## Your task
+
+Based on the above changes, create a single git commit wich starts by the given scope $ARGUMENTS
