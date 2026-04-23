@@ -52,3 +52,4 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 **`next/image`:** `minimumCacheTTL` default changed to 4 hours; default `imageSizes` no longer includes 16px; default `qualities` is now `[75]`. Local images with query strings require `images.localPatterns.search` config.
 
 **React Compiler:** Stable but not enabled by default. Enable with `reactCompiler: true` in `next.config.ts`.
+
