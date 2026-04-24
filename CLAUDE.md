@@ -53,3 +53,20 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
 **React Compiler:** Stable but not enabled by default. Enable with `reactCompiler: true` in `next.config.ts`.
 
+## MCP Servers
+
+This repository uses the following MCP (Model Context Protocol) servers:
+
+### Playwright MCP (`@playwright/mcp`)
+
+- **Purpose:** Browser automation — navigate pages, take screenshots, interact with UI elements.
+- **Evidence:** `.playwright-mcp/` directory (browser session logs committed to the repo).
+- **When to use:** UI testing, web scraping, verifying rendered output in a real browser.
+
+### GitHub Comment MCP
+
+- **Purpose:** Create and update comments on GitHub issues and pull requests.
+- **Provided by:** `anthropics/claude-code-action@v1` (automatically available when running inside the GitHub Action).
+- **Key tool:** `mcp__github_comment__update_claude_comment` — updates the Claude bot's comment on the current issue or PR.
+- **When to use:** All communication from Claude inside the GitHub Action flows through this MCP.
+
